@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Dark Theme</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm py-3">
+        <!-- Brand/logo -->
+        <span class="navbar-brand">Dark Theme</span></nav>
+        
+    <div class="container-fluid">
+             <div class="row">
+            <div class="col">
+                <img class="img-fluid" src="eur1.jpg">
+            
+                <img class="img-fluid" src="eur2.jpg">
+                <img class="img-fluid" src="eur3.jpg">
+            </div>
+             </div>
+             <div class="row">
+            <div class="col">
+                <img class="img-fluid" src="eur5.jpg">
+                
+                 <img class="img-fluid" src="eur4.jpg">
+        
+                 <img class="img-fluid" src="eur6.jpg">
+            </div>
+
+            </div>
+
+            <div class="row">
+            <div class="col">
+                <img class="img-fluid" src="eur8.jpg">
+                
+                 <img class="img-fluid" src="eur7.jpg">
+        
+                 <img class="img-fluid" src="eur9.jpg">
+            </div>
+            </div></div>
+            <div class="container-fluid coderfeel">
+                Get the coder feel !?
+            </div>  
+            <div class="container">
+                <input type="checkbox" class="checkbox" id="chk">
+                <label for="chk" class="label">
+                    <i class="fa fa-moon-o"></i>
+                    <i class="fa fa-sun-o"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+            
+        </body>
+        
+            <script>
+           const chk = document.getElementById('chk');
+const body = document.body;
+
+chk.addEventListener('input', e => {
+    const isChecked = e.target.checked;
+
+    if (isChecked) {
+        body.classList.add('dark');
+    } else {
+        body.classList.remove('dark');
+    }
+});
+            </script>
+</html>
