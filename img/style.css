@@ -6,10 +6,18 @@ body {
 	background-color:white;
 	transition: background 0.2s linear;
 }
-
+h1{
+    color:blueviolet;
+    margin-top: 15px;
+    font-weight: bold;
+}
+hr{
+    border-top:1px solid black;
+}
 
 nav{
     background-color: blueviolet;
+    border-bottom-left-radius: 10px ;
 }
 .navbar-brand{
     color:black;
@@ -28,7 +36,7 @@ img{
     text-align: center;
 }
 .coderfeel{
-    height:80px;
+    height:70px;
     color:black;
     background-color: blueviolet;
     margin-top:100px;
