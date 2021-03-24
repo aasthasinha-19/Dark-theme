@@ -31,16 +31,7 @@ img{
      margin-top:50px;
  
  }
- .container{
-    
-      display: flex;
-        align-items: center;
-      justify-content: center;
-      padding:1rem;
-    
-        margin: 0;
-        transition: background 0.2s linear;   
- }
+ 
  
 
 .container-fluid{
@@ -66,7 +57,7 @@ img{
     border-radius: 50px;
     padding:5px;
     position:relative;
-
+    margin-left:45%;
 }
 
 .checkbox{
